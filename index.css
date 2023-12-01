@@ -1,3 +1,18 @@
 *{
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;    
+}
+.main-nav{
+    background-color: #43281C;
+    height: 70px;
+    text-align: center;
+}
+.logo{
+    height: 30px;
+    margin-top: 12px;
+}
+.brand{
+    color: #FBF2C0;
+    
 }

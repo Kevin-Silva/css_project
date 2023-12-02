@@ -16,3 +16,71 @@
     color: #FBF2C0;
     
 }
+.pages{
+    display: grid;
+    grid-template-areas: 
+    "items payment"
+    "total total";
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap:20px;
+}
+.items{
+    background-color: blue;
+    margin-left: 30px;
+    margin-top: 50px;
+    border-radius: 05px;
+}
+.name-box{
+    height: 120px;
+    width: 90%;
+    background-color: blue;
+    margin-left: 30px;
+    margin-top: 50px;
+    border-radius: 05px;
+}
+.payment-box{
+    width: 90%;
+    background-color: blue;
+    margin-left: 30px;
+    margin-top: 20px;
+    border-radius: 05px;
+}
+.box-letter{ 
+    color: white;
+    margin-left: 10px;
+    font-family: 'Open Sans';
+    font-weight: lighter;
+}
+.input-name{
+    position: relative;
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: 15px;
+}
+.input-name-c {
+    border-color: crimson;
+    padding: 8px;
+    border-radius: 5px;
+}
+.input-name-label{
+    background-color: blue;
+    color: crimson;
+    font-size: 14px;
+    position: absolute;
+    left: 25px;
+    top: -7px;
+    padding: 0 2px;
+}
+.name-letter{
+    color: white;
+    margin-left: 10px;
+    font-family: 'Open Sans';
+    font-weight: lighter;
+    margin-bottom: 10px;
+}
+.payment-letter{
+    color: white;
+    margin-left: 10px;
+    font-family: 'Open Sans';
+    font-weight: lighter;
+}

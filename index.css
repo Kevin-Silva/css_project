@@ -21,7 +21,7 @@
     grid-template-areas: 
     "items payment"
     "total total";
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr ;
     grid-column-gap:20px;
 }
 .items{
@@ -31,6 +31,9 @@
     border-radius: 05px;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
     
+}
+.items-class{
+    list-style: none;
 }
 .name-box{
     height: 120px;
@@ -68,6 +71,7 @@
     border-color: #c3a78d;
     padding: 8px;
     border-radius: 5px;
+    width: 500px;
 }
 .input-name-label{
     background-color: #eee1d5;
@@ -90,4 +94,25 @@
     margin-left: 10px;
     font-family: 'Open Sans';
     font-weight: lighter;
+}
+.total{
+    background-color: blue;
+    height: 500px;
+    grid-area: total;
+}
+.item{
+    position: flex;
+    margin-left: 30px;
+}
+.item-quantity{
+    margin-left: 10px;
+}
+.item-class{
+    margin-top: 20px;
+}
+.total-table-td{
+    padding-left: 100px;
+}
+.item-option{
+    list-style: none;
 }

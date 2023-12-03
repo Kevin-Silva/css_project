@@ -105,9 +105,18 @@
 }
 .item-quantity{
     margin-left: 10px;
+    grid-area: item-quantity;
+}
+.item-name{
+    grid-area: item-name;
 }
 .item-class{
     margin-top: 20px;
+    display: grid;
+    grid-template-areas: 
+    "item-quantity item-name item-value"
+    "item-option item-option item-option";
+    grid-template-columns: 1fr 1fr 1fr;
 }
 .total-table-td{
     padding-left: 100px;

@@ -96,7 +96,6 @@
     font-weight: lighter;
 }
 .total{
-    background-color: blue;
     height: 500px;
     grid-area: total;
 }
@@ -115,4 +114,17 @@
 }
 .item-option{
     list-style: none;
+}
+hr{
+    border: 1px solid #deb993;
+}
+.table-div{
+    margin-left: 850px;
+    margin-top: 200px;
+}
+.total-button{
+    margin-left: 920px;
+    margin-top: 50px;
+    border: 1px solid black;
+    background: none;
 }
